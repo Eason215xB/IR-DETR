@@ -1,11 +1,11 @@
 # IR-DETR
 
-Automatic target recognition is critical in infrared imaging guidance. Detecting small targets is challenging due to poorly defined silhouettes, low SNR and complex backgrounds. Traditional methods and deep learning approaches often struggle with SNR, target size, and insufficient feature extraction. To address these issues, we propose the IR-DETR network family based on DETR. Specifically, we design a multilayer efficient backbone (MEB) for efficient feature extraction of infrared small targets using a simple and efficient network structure. We then fuse local and global spatial features through the local window attention-based intrascale feature interaction (LWAIFI). Our proposed TripleRepC3 (TRC3) expands the model’s receptive field, which improves the detection accuracy of infrared targets while also reducing the model’s overall size. Additionally, we introduce the Adaptive Max-Sigmoid activation function to address the shortcomings of previous activation functions in small target detection. Finally, by incorporating the Normalized Wasserstein Distance (NWD) loss function, we further improve the detection performance of IR-DETR for small infrared targets. Compared to SOTA models on ATR dataset, NUDT-SIRST dataset and IRSTD-1k dataset, the IR-DETR network family achieved the best performance. 
+Automatic target recognition is critical in infrared imaging guidance. Detecting small targets is challenging due to poorly defined silhouettes, low SNR and complex backgrounds. Traditional methods and deep learning approaches often struggle with SNR, target size, and insufficient feature extraction. To address these issues, we propose the IR-DETR network family based on DETR. Specifically, we design a MEB for efficient feature extraction of infrared small targets using a simple and efficient network structure. We then fuse local and global spatial features through LWAIFI. Our proposed TRC3 expands the model’s receptive field, which improves the detection accuracy of infrared targets while also reducing the model’s overall size. Additionally, we introduce the Adaptive Max-Sigmoid activation function to address the shortcomings of previous activation functions in small target detection. Finally, by incorporating NWD loss function, we further improve the detection performance of IR-DETR for small infrared targets. Compared to SOTA models on ATR dataset, NUDT-SIRST dataset and IRSTD-1k dataset, the IR-DETR network family achieved the best performance. 
 
-<div align=center>
-![1](https://github.com/user-attachments/assets/9dea9227-08a8-4b37-bb8f-cb0bb75f5866)
-<div>
-  
+<div align="center">
+  <img src=https://github.com/Eason215xB/IR-DETR/blob/main/1.jpg>
+</div>
+ 
 ## Installation
 *[conda]* - Clone the repository and then create and activate a `IR-DETR` conda environment using the provided environment definition:
 
