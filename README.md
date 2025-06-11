@@ -42,4 +42,19 @@ Val:
 ```shell
 python val.py --data.yaml --best.pt
 ```
+## Reference
+
+- If you found our work useful in your research, please consider citing our works at:
+
+```tex
+
+@article{yue2025ir,
+  title={IR-DETR: An efficient detection transformer with multi-layer feature fusion for infrared small targets},
+  author={Yue, Xinbo and Liu, Liwei and Du, Yue},
+  journal={Infrared Physics \& Technology},
+  pages={105926},
+  year={2025},
+  publisher={Elsevier}
+}
+
 
